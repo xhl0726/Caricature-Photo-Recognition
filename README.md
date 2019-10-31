@@ -1,17 +1,17 @@
 # Caricature-Photo-Recognition
 Match Caricature and photo pairs. It is an interesting task, isn't it?
 
-##The experiments are conducted on Pytorch 0.4.0.
+## The experiments are conducted on Pytorch 0.4.0.
 
-*dataset.py --Preprocess the images.*
+* dataset.py --Preprocess the images. 
 
-*net_sphere.py --Added my CBMA module.*
+* net_sphere.py --Added my CBMA module.
 
-*transfer learning.py --Use transfer learning to get the traning model of SphereNet. *
+* transfer learning.py --Use transfer learning to get the traning model of SphereNet. 
 
-*utils.py --Some other functions.*
+* utils.py --Some other functions.
 
-*wc_eval.py --Test the model and evaluate our results. *
+* wc_eval.py --Test the model and evaluate our results. 
 
 
 The dataset is very large. If you want to try it, you can download it from [WebCaricature](https://cs.nju.edu.cn/rl/WebCaricature.htm)
