@@ -1,0 +1,18 @@
+max_iter: 12000
+log_iter: 50
+snapshot_save_iter: 1000
+
+lr: 0.01
+momentum: 0.9
+weight_decay: 0.0005
+milestones:
+  - 16000
+  - 24000
+gamma: 0.1
+
+# dataset_path: ../../datasets/WebCaricature/frontalization_dataset_v005
+dataset_path: 'datasets/WebCaricature'
+batch_size: 128
+num_workers: 4
+
+weight_path: 'support_material/sphere20a.pth'
